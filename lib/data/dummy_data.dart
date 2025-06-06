@@ -17,12 +17,12 @@ const availableCategories = [
   ),
   Category(
     id: 'c3',
-    title: 'Hamburgers',
+    title: 'Burgers',
     color: Colors.orange,
   ),
   Category(
     id: 'c4',
-    title: 'German',
+    title: 'Snacks',
     color: Colors.amber,
   ),
   Category(
@@ -37,7 +37,7 @@ const availableCategories = [
   ),
   Category(
     id: 'c7',
-    title: 'Breakfast',
+    title: 'Maharashtrian',
     color: Colors.lightBlue,
   ),
   Category(
@@ -157,34 +157,34 @@ const dummyMeals = [
     categories: [
       'c4',
     ],
-    title: 'Wiener Schnitzel',
-    affordability: Affordability.luxurious,
+    title: 'Dahi Wada',
+    affordability: Affordability.affordable,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
-    duration: 60,
+        'https://i.pinimg.com/736x/03/0a/ad/030aad67429989af0b46ebecaf5e9431.jpg',
+    duration: 500,
     ingredients: [
-      '8 Veal Cutlets',
-      '4 Eggs',
-      '200g Bread Crumbs',
-      '100g Flour',
-      '300ml Butter',
-      '100g Vegetable Oil',
-      'Salt',
-      'Lemon Slices'
+      '2 cups Urad Dal',
+      '½ teaspoon chopped green chilies or serrano/thai chillies.',
+      '1 teaspoon chopped ginger',
+      '1 teaspoon cumin seeds.',
+      '1 pinch of asafoetida (hing).',
+      'Salt.',
+      'Oil.',
+      'Curd(Dahi).',
     ],
     steps: [
-      'Tenderize the veal to about 2–4mm, and salt on both sides.',
-      'On a flat plate, stir the eggs briefly with a fork.',
-      'Lightly coat the cutlets in flour then dip into the egg, and finally, coat in breadcrumbs.',
-      'Heat the butter and oil in a large pan (allow the fat to get very hot) and fry the schnitzels until golden brown on both sides.',
-      'Make sure to toss the pan regularly so that the schnitzels are surrounded by oil and the crumbing becomes ‘fluffy’.',
-      'Remove, and drain on kitchen paper. Fry the parsley in the remaining oil and drain.',
-      'Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon.'
+      'Soak the Urad Dal over night.',
+      'After soaking add water to dal and grind it to form Batter.',
+      'Give proper shape to the batter and fry wadas until they become golden brown.',
+      'Dip the wadas into water for 10 minutes.',
+      'Add curd and sugar to the wadas and make sure its dipped completely.',
+      'Add some additional spices according to your taste.'
+          'Garnish it with coriander.'
     ],
-    isGlutenFree: false,
+    isGlutenFree: true,
     isVegan: false,
-    isVegetarian: false,
+    isVegetarian: true,
     isLactoseFree: false,
   ),
   Meal(
@@ -194,18 +194,18 @@ const dummyMeals = [
           'c5',
       'c10',
     ],
-    title: 'Salad with Smoked Salmon',
+    title: 'Lettuce Salad',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
+        'https://i0.wp.com/www.homegrown-kitchen.co.nz/wp-content/uploads/2023/02/Lettuce-Salad-Cucumber-Slaw-Nicola-Galloway-Homegrown-Kitchen-3-of-3.jpg?fit=1200,1800&ssl=1',
     duration: 15,
     ingredients: [
       'Arugula',
-      'Lamb\'s Lettuce',
+      'Lettuce',
       'Parsley',
       'Fennel',
-      '200g Smoked Salmon',
+      '100g Paneer',
       'Mustard',
       'Balsamic Vinegar',
       'Olive Oil',
@@ -213,10 +213,10 @@ const dummyMeals = [
     ],
     steps: [
       'Wash and cut salad and herbs',
-      'Dice the salmon',
+      'Add Lettuce',
       'Process mustard, vinegar and olive oil into a dessing',
       'Prepare the salad',
-      'Add salmon cubes and dressing'
+      'Add Paneer cubes and dressing'
     ],
     isGlutenFree: true,
     isVegan: false,
@@ -236,7 +236,7 @@ const dummyMeals = [
         'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
     duration: 240,
     ingredients: [
-      '4 Sheets of Gelatine',
+      '5 tablespoons of Caramel',
       '150ml Orange Juice',
       '80g Sugar',
       '300g Yoghurt',
@@ -244,11 +244,11 @@ const dummyMeals = [
       'Orange Peel',
     ],
     steps: [
-      'Dissolve gelatine in pot',
+      'Dissolve Caramel in pot',
       'Add orange juice and sugar',
       'Take pot off the stove',
       'Add 2 tablespoons of yoghurt',
-      'Stir gelatin under remaining yoghurt',
+      'Stir caramel under remaining yoghurt',
       'Cool everything down in the refrigerator',
       'Whip the cream and lift it under die orange mass',
       'Cool down again for at least 4 hours',
@@ -269,7 +269,7 @@ const dummyMeals = [
     complexity: Complexity.simple,
     imageUrl:
         'https://upload.wikimedia.org/wikipedia/commons/0/02/Jhunka_Bhakri_Marathi_Food_by_Dr._Raju_Kasambe_DSCN0221_%288%29.jpg',
-    duration: 20,
+    duration: 30,
     ingredients: [
       '1 1/2 Cups Gram Flour',
       '1 1/2 Teaspoons Redchilli Powder',
@@ -297,8 +297,8 @@ const dummyMeals = [
     affordability: Affordability.pricey,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/e/ec/Day_96_Melting_Pot.jpg',
-    duration: 35,
+        'https://i0.wp.com/cookingfromheart.com/wp-content/uploads/2017/03/Paneer-Tikka-Masala-2.jpg?w=845&ssl=1',
+    duration: 45,
     ingredients: [
       '200g Paneer'
           '1 Onion',
